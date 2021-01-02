@@ -6,8 +6,8 @@ python train_tabnet.py \
        --csv-path data/odds.csv \
        --target-name "won" \
        --categorical-features sport,championat,league,E,status \
-       --feature_dim 16 \
-       --output_dim 16 \
+       --feature_dim 13 \
+       --output_dim 13 \
        --batch-size 4096 \
        --virtual-batch-size 128 \
        --batch-momentum 0.98 \
