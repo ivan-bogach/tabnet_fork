@@ -9,8 +9,6 @@ python train_tabnet.py \
        --task classification \
        --val-frac 0.2 \
        --test-frac 0.1 \
-       --model-name tabnet_adult_census \
-       --tb-log-location adult_census_logs \
        --emb-size 1 \ 
        --feature_dim 16 \
        --output_dim 16 \
