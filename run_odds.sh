@@ -6,7 +6,7 @@ python train_tabnet.py \
        --csv-path data/odds.csv \
        --target-name "won" \
        --categorical-features sport,championat,league,E,status \
-       --task classification
+       --task classification \
        --val-frac 0.2 \
        --test-frac 0.1 \
        --model-name tabnet_adult_census \
